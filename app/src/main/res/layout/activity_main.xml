@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--控件-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center"-->
+    <!--android:text="Hello World!"-->
+    <!--android:textColor="#00ff00"-->
+    <!--android:textSize="30sp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Button"-->
+    <!--android:textAllCaps="false" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/et"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:hint="please input here"-->
+    <!--android:maxLines="3" />-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/iv"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@mipmap/ic_launcher" />-->
+
+    <!--<ProgressBar-->
+    <!--android:id="@+id/pb"-->
+    <!--style="?android:attr/progressBarStyleHorizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:max="100" />-->
+
+    <!--四种布局-->
+
+    <!--————————————————————————————————————————-->
+    <!--线性布局-->
+    <!--<Button-->
+    <!--android:id="@+id/bt1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="left"-->
+    <!--android:text="bt1" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:text="bt2" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="right"-->
+    <!--android:text="bt3" />-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/et"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:maxLines="1" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt4"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="bt4" />-->
+    <!--</LinearLayout>-->
+
+    <!--————————————————————————————————————————-->
+    <!--相对布局-->
+
+    <!--案例1-->
+    <!--<Button-->
+    <!--android:id="@+id/bt1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:text="bt1" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:text="bt2" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:text="bt3" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt4"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:text="bt4" />-->
+
+
+    <!--<Button-->
+    <!--android:id="@+id/bt5"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:text="bt5" />-->
+
+    <!--案例2-->
+    <!--<Button-->
+    <!--android:id="@+id/bt"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:text="bt" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_above="@id/bt"-->
+    <!--android:layout_toLeftOf="@id/bt"-->
+    <!--android:text="bt1" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_above="@id/bt"-->
+    <!--android:layout_toRightOf="@id/bt"-->
+    <!--android:text="bt2" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/bt"-->
+    <!--android:layout_toLeftOf="@id/bt"-->
+    <!--android:text="bt3" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt4"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@id/bt"-->
+    <!--android:layout_toRightOf="@id/bt"-->
+    <!--android:text="bt3" />-->
+
+    <!--————————————————————————————————————————-->
+    <!--百分比布局-->
+    <!--<Button-->
+    <!--android:id="@+id/bt1"-->
+    <!--android:layout_gravity="left|top"-->
+    <!--android:text="bt1"-->
+    <!--app:layout_heightPercent="50%"-->
+    <!--app:layout_widthPercent="50%" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt2"-->
+    <!--android:layout_gravity="right|top"-->
+    <!--android:text="bt2"-->
+    <!--app:layout_heightPercent="50%"-->
+    <!--app:layout_widthPercent="50%" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/bt3"-->
+    <!--android:layout_gravity="left|bottom"-->
+    <!--android:text="bt3"-->
+    <!--app:layout_heightPercent="50%"-->
+    <!--app:layout_widthPercent="50%" />-->
+
+    <!--————————————————————————————————————————-->
+    <!--引入布局文件-->
+    <!--<include layout="@layout/title" />-->
+
+    <!--————————————————————————————————————————-->
+    <!--自定义控件-->
+    <com.example.zsg.uiwidgettest.TitleLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
